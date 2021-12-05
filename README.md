@@ -56,7 +56,7 @@ cd ..
 catkin build
 source devel/setup.sh (source ~/.bashrc)
 roscd ncu_mdog/startup
-sudo chmpd 777 ./*
+sudo chmod 777 ./*
 sudo sh initenv.sh
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
