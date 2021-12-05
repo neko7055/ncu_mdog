@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- TF setting -->
+    <include file="$(find ncu_mdog)/launch/includes/mdog_tf.launch.xml" />
+
+    <!-- YDLidar -->
+    <include file="$(find ncu_mdog)/launch/includes/mdog_ydlidar.launch.xml" />
+    
+    <!-- Imu -->
+    <include file="$(find ncu_mdog)/launch/includes/mdog_imu.launch.xml" />
+
+    <!-- Motor -->
+    <include file="$(find ncu_mdog)/launch/includes/mdog_motor.launch.xml" />
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+    <node name="mpu9250_node"   pkg="ncu_mdog"  type="mpu9250_node" output="screen">
+    <param name="calibration_file_path" value="$(find ncu_mdog)"/>
+    <param name="calibration_file_name" value="RTIMULib" />
+    <param name="imu_link" value="imu_link"/>
+    <param name="mag_link" value="mag_link"/>
+    <param name="imu_topic_name" value="imu"/>
+    <param name="mag_topic_name" value="mag"/>
+    <param name="imu_frame"  value="imu_link"/>
+    <param name="mag_frame"  value="mag_link"/>
+    </node>
+</launch>

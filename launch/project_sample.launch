@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<include file="$(find ncu_mdog)/launch/includes/mdog_Drivers.launch.xml"></include>
+<node name="main" pkg="ncu_mdog" type="main" output="screen">
+</node>
+
+</launch>
