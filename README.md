@@ -1,7 +1,7 @@
 # ncu_mdog
 
 ## About The Project
-This is ncu_mdog drivers and sample code.
+This is ncu_the drivers and sample code of ncu_mdog.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Hardware List
