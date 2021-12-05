@@ -36,7 +36,7 @@ sudo apt-get install i2c-tools libi2c-dev build-essential python3-catkin-tools
 cd ~
 git clone https://github.com/HongshiTan/RTIMULib2.git
 
-cd RTIMULib/Linux
+cd RTIMULib2/Linux
 mkdir build
 cd build
 cmake .. -DBUILD_DEMO=0 -DBUILD_GL=0
