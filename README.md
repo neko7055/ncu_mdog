@@ -19,7 +19,7 @@ This is ncu_the drivers and sample code of ncu_mdog.
 + jetson nano 4GB
 + Ubuntu 18.04
 + Ros melodic
-+ [RTIMULIB](https://github.com/RTIMULib/RTIMULib2)
++ [RTIMULIB](https://github.com/HongshiTan/RTIMULib2)
 + [ros-i2cpwmboard](https://github.com/mentor-dyun/ros-i2cpwmboard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -34,7 +34,7 @@ sudo apt-get install i2c-tools libi2c-dev build-essential python3-catkin-tools
 + cmake part
  ```sh
 cd ~
-git clone https://github.com/RTIMULib/RTIMULib2.git
+git clone https://github.com/HongshiTan/RTIMULib2.git
 
 cd RTIMULib/Linux
 mkdir build
@@ -69,7 +69,7 @@ roslaunch ncu_mdog project_sample.launch
 
 ## Acknowledgments
 
-+ [RTIMULIB](https://github.com/RTIMULib/RTIMULib2.git)
++ [RTIMULIB](https://github.com/HongshiTan/RTIMULib2.git)
 + [ros_i2cbread](https://github.com/mentor-dyun/ros-i2cpwmboard.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
