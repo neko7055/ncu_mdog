@@ -69,7 +69,7 @@ roslaunch ncu_mdog project_sample.launch
 
 ## Acknowledgments
 
-+ [RTIMULIB](https://github.com/HongshiTan/RTIMULib2.git)
++ [RTIMULIB](https://github.com/jetsonhacks/RTIMULib.git)
 + [ros_i2cbread](https://github.com/mentor-dyun/ros-i2cpwmboard.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
