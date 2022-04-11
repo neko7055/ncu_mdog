@@ -52,13 +52,13 @@ get to your workspace/src then clone and build the package:
 cd ~/catkin_ws/src
 git clone https://github.com/mentor-dyun/ros-i2cpwmboard.git
 cd ..
-catkin build
+catkin_make
 source devel/setup.sh (source ~/.bashrc)
 
 cd ~/catkin_ws/src
 git clone https://github.com/neko7055/ncu_mdog.git
 cd ..
-catkin build
+catkin_make
 source devel/setup.sh (source ~/.bashrc)
 roscd ncu_mdog/startup
 sudo chmod 777 ./*
