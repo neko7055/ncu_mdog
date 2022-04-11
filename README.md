@@ -50,8 +50,13 @@ sudo ldconfig
 get to your workspace/src then clone and build the package:
 ```sh
 cd ~/catkin_ws/src
-git clone https://github.com/neko7055/ncu_mdog.git
 git clone https://github.com/mentor-dyun/ros-i2cpwmboard.git
+cd ..
+catkin build
+source devel/setup.sh (source ~/.bashrc)
+
+cd ~/catkin_ws/src
+git clone https://github.com/neko7055/ncu_mdog.git
 cd ..
 catkin build
 source devel/setup.sh (source ~/.bashrc)
