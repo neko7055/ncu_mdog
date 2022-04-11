@@ -28,7 +28,7 @@ This is ncu_the drivers and sample code of ncu_mdog.
 ### Prerequisites
 + apt part
  ```sh
-sudo apt updata
+sudo apt updat
 sudo apt-get install i2c-tools libi2c-dev build-essential python3-catkin-tools
 ```
 + cmake part
